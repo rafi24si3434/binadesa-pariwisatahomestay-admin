@@ -26,7 +26,7 @@ class UserSeeder extends Seeder
         // =====================================================================
         // 2. Generate 50 user fake
         // =====================================================================
-        for ($i = 1; $i <= 50; $i++) {
+        for ($i = 1; $i <= 5; $i++) {
             User::create([
                 'name'     => $faker->name(),
                 'email'    => $faker->unique()->safeEmail(),

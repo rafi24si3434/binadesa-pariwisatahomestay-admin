@@ -22,7 +22,7 @@ class HomestaySeeder extends Seeder
 
         $fasilitasList = ['WiFi', 'AC', 'Sarapan', 'Parkir', 'TV', 'Kamar Mandi Dalam'];
 
-        for ($i = 0; $i < 50; $i++) {
+        for ($i = 0; $i < 5; $i++) {
 
             Homestay::create([
                 'pemilik_warga_id' => $faker->randomElement($pemilikList),

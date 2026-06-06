@@ -26,7 +26,7 @@ class KamarHomestaySeeder extends Seeder
             return;
         }
 
-        for ($i = 0; $i < 100; $i++) {
+        for ($i = 0; $i < 5; $i++) {
 
             $homestay = $homestays->random(); // pilih homestay random
 
@@ -41,6 +41,6 @@ class KamarHomestaySeeder extends Seeder
             ]);
         }
 
-        echo "✅ Seeder Kamar Homestay berhasil dibuat 100 data.\n";
+        echo "✅ Seeder Kamar Homestay berhasil dibuat 5 data.\n";
     }
 }

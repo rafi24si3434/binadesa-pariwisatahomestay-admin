@@ -23,7 +23,7 @@ class DestinasiWisataSeeder extends Seeder
             'Hutan Wisata Cemara', 'Goa Batu Hijau'
         ];
 
-        for ($i = 1; $i <= 50; $i++) {
+        for ($i = 1; $i <= 5; $i++) {
 
             DestinasiWisata::create([
                 'nama'      => $faker->randomElement($namaWisata) . " " . $faker->citySuffix(),

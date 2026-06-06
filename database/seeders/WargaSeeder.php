@@ -18,7 +18,7 @@ class WargaSeeder extends Seeder
             'Nelayan', 'Pedagang', 'Mahasiswa', 'Ibu Rumah Tangga'
         ];
 
-        for ($i = 0; $i < 100; $i++) {
+        for ($i = 0; $i < 10; $i++) {
 
             Warga::create([
                 'no_ktp'        => $faker->nik(),

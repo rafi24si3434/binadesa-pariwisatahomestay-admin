@@ -22,7 +22,7 @@ class UlasanWisataSeeder extends Seeder
             return;
         }
 
-        for ($i = 1; $i <= 80; $i++) {
+        for ($i = 1; $i <= 5; $i++) {
 
             UlasanWisata::create([
                 'destinasi_id' => $faker->randomElement($destinasi),

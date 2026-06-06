@@ -21,7 +21,7 @@ class BookingHomestaySeeder extends Seeder
             return; // aman jika data belum ada
         }
 
-        for ($i = 1; $i <= 40; $i++) {
+        for ($i = 1; $i <= 5; $i++) {
 
             // tanggal checkin & checkout
             $checkin  = $faker->dateTimeBetween('+1 days', '+15 days');
